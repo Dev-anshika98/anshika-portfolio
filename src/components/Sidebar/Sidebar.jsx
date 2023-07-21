@@ -1,7 +1,6 @@
-import { BsTelegram, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsTwitter, BsGithub, BsLinkedin } from "react-icons/bs";
 import { AiFillCloseCircle, AiFillInstagram } from "react-icons/ai";
 import { RiMenu3Line } from "react-icons/ri";
-
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useStateContext } from "../../context/Context";
@@ -89,9 +88,9 @@ const Sidebar = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="hover:scale-150"
-                  href="https://t.me/Mehdi0_0wa"
+                  href="https://twitter.com/Dev_anshika98"
                 >
-                  <BsTelegram />
+                  <BsTwitter />
                 </a>
               </div>
             </div>

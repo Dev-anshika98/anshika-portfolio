@@ -1,30 +1,39 @@
 import { useStateContext } from "../../context/Context";
-
-import Snowfall from "react-snowfall";
+import { useEffect } from "react";
+import 'particles.js/particles';
+// import Snowfall from "react-snowfall";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 
-import  Avatar  from "../../assets/Avatar.jpg";
+import Avatar from "../../assets/Avatar.jpg";
 import Styles from "./Home.module.css";
+
+const particlesJS = window.particlesJS;
 
 const Home = () => {
   const { currentColor, currentLang, t } = useStateContext();
 
+
+  useEffect(() => {
+    const jsonPath = window.innerWidth <= 800 ? './particlesjs-mobile-config.json' : './particlesjs-config.json';
+    particlesJS.load('hero-container', jsonPath);
+  }, []);
+
+
   return (
-    <>
+    <> <div id="hero-container" >
       <div
-        className={`${
-          currentLang === "fa" ? "pr-16 md:pr-40" : ""
-        } activeSection h-screen w-full flex flex-col items-start justify-center md:pl-48 p-10 gap-14 overflow-hidden`}
+        className={`${currentLang === "fa" ? "pr-16 md:pr-40" : ""
+          }  activeSection  h-screen w-full flex flex-col items-start justify-center md:pl-48 p-10 gap-14 overflow-hidden`}
       >
-        <Snowfall
+        {/* <Snowfall
           style={{
             opacity: "1",
           }}
           color={currentColor}
           snowflakeCount={80}
           speed={[0.5, 2]}
-        />
+        /> */}
 
         <div className="relative w-52">
           <h2 className="absolute z-10 text-2xl font-bold tracking-tight rtl:font-casablanca ">
@@ -79,6 +88,7 @@ const Home = () => {
           <img src={Avatar} alt="me" />
         </div>
       </div>
+    </div>
     </>
   );
 };

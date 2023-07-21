@@ -1,6 +1,6 @@
 import { BsTelegram, BsGithub, BsLinkedin } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
-
+import { BsTwitter } from "react-icons/bs";
 import { useStateContext } from "../../context/Context";
 
 const GetinTouch = () => {
@@ -11,7 +11,7 @@ const GetinTouch = () => {
         target="_blank"
         rel="noreferrer"
         className="contactlink hover:scale-150"
-        href="https://www.instagram.com/mehdi0_0keramati"
+        href="https://www.instagram.com/iam_astrid01/"
       >
         <AiFillInstagram />
       </a>
@@ -19,7 +19,7 @@ const GetinTouch = () => {
         target="_blank"
         rel="noreferrer"
         className="contactlink hover:scale-150"
-        href="https://www.github.com/mehdi0-0keramati"
+        href="https://github.com/Dev-anshika98"
       >
         <BsGithub />
       </a>
@@ -27,7 +27,7 @@ const GetinTouch = () => {
         target="_blank"
         rel="noreferrer"
         className="contactlink hover:scale-150"
-        href="https://www.linkedin.com/in/mehdi-keramati-503533267"
+        href="https://in.linkedin.com/in/anshika-gupta-597865260"
       >
         <BsLinkedin />
       </a>
@@ -35,9 +35,9 @@ const GetinTouch = () => {
         target="_blank"
         rel="noreferrer"
         className="contactlink hover:scale-150"
-        href="https://t.me/Mehdi0_0wa"
+        href="https://twitter.com/Dev_anshika98"
       >
-        <BsTelegram />
+        <BsTwitter />
       </a>
 
       <style>
