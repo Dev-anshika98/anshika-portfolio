@@ -14,14 +14,11 @@
   "welcome": "Welcome",
   "about": "ABOUT",
   "helloName": "Hello there , i'm Anshika Gupta",
-  "AboutDescreption": "i'm  passionate FrontEnd web Developer and, 18 years old from India.",
+  "AboutDescreption": "i'm  passionate FrontEnd web Developer from India. I am a passionate and skilled Frontend Web Developer, specializing in creating engaging and user-friendly interfaces. Below, you'll find a brief overview of my expertise and some of the projects I've worked on.",
   "aboutSkills1": "Frontend developer",
   "aboutSkills1Description1": "A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with.",
   "aboutSkills2": "Web Development",
   "aboutSkills1Description2": "Web developers create and maintain websites. They are also responsible for the site's technical aspects.",
-
- 
-
   "reactjs": "ReactJS",
   "viewGithub": "View Github",
   "liveDemo": "Live Demo",
