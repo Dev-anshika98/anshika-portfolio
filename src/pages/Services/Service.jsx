@@ -69,7 +69,7 @@ const Service = () => {
       >
         {serviceData.map(({ icon, skill, description }) => (
           <SwiperSlide key={skill}>
-            <div className="item border-black dark:border-white border-2 p-4 w-10/12 md:w-60 h-4/5 flex flex-col gap-y-4">
+            <div className="item border-black dark:border-white border-2 p-4 w-10/12 md:w-60 h-8/5 flex flex-col gap-y-4">
               <style>
                 {`.item:hover {
                   background: ${currentColor} !important;}`}
@@ -99,7 +99,7 @@ const Service = () => {
                   direction:
                     localStorage.getItem("currentLang") === "fa" ? "rtl" : "ltr",
                 }}
-                className="description text-sm text-gray-400 rtl:text-right"
+                className="description text-lg text-gray-700 rtl:text-right"
               >
                 {description}
               </p>

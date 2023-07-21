@@ -1,6 +1,6 @@
 import { useStateContext } from "../../context/Context";
 
-import Photo from "../../assets/picture.jpg";
+import Photo from "../../assets/mypic1.jpg";
 
 const About = () => {
   const { currentColor, aboutData, t } = useStateContext();
@@ -31,7 +31,7 @@ const About = () => {
           style={{ background: currentColor }}
           className="w-20 h-1 m-2 mb-4"
         ></div>
-        <p className=" text-3xl text-black text-md">{t("AboutDescreption")}</p>
+        <p className=" text-2xl text-gray-700 text-md">{t("AboutDescreption")}</p>
 
         <div className="grid gap-8 mt-12 text-2xl text-black md:grid-cols-2 gap-y-12">
           {aboutData.map(({ skill, description, icon }) => (

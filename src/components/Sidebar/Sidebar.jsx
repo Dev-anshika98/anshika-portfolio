@@ -65,7 +65,7 @@ const Sidebar = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="hover:scale-150"
-                  href="https://www.instagram.com/mehdi0_0keramati"
+                  href="https://www.instagram.com/iam_astrid01/"
                 >
                   <AiFillInstagram />
                 </a>
@@ -73,7 +73,7 @@ const Sidebar = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="hover:scale-150"
-                  href="https://www.github.com/mehdi0-0keramati"
+                  href="https://github.com/Dev-anshika98"
                 >
                   <BsGithub />
                 </a>
@@ -81,7 +81,7 @@ const Sidebar = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="hover:scale-150"
-                  href="https://www.linkedin.com/in/mehdi-keramati-503533267"
+                  href="https://in.linkedin.com/in/anshika-gupta-597865260"
                 >
                   <BsLinkedin />
                 </a>

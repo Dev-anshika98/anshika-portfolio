@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { useStateContext } from "../../context/Context";
+import { useStateContext } from "../../context/Context.jsx";
 
 import { ContactPic } from "../../assets/dummy";
 import Styles from "./ContactUs.module.css";
@@ -63,7 +63,7 @@ const Contact = () => {
           style={{ background: currentColor }}
           className="w-20 h-1 m-2 mb-4"
         ></div>
-        <p className="text-sm text-gray-400">{t("contactDescription")}</p>
+        <p className="text-sm text-gray-700">{t("contactDescription")}</p>
 
         <div
           style={{
