@@ -3,7 +3,7 @@ import { RouterProvider, createHashRouter } from "react-router-dom";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 import App from "./App";
-import { Home } from "./pages";
+import { Home , About } from "./pages";
 import "./index.css";
 import { ContextProvider } from "./context/Context";
 
@@ -19,10 +19,10 @@ const router = createHashRouter([
         path: "/home",
         element: <Home />,
       },
-    //   {
-    //     path: "/about",
-    //     element: <About />,
-    //   },
+      {
+        path: "/about",
+        element: <About />,
+      },
     //   {
     //     path: "/service",
     //     element: <Service />,
