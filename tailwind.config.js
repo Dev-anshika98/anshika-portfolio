@@ -1,5 +1,3 @@
-const dir = require("tailwindcss-dir");
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -70,5 +68,5 @@ module.exports = {
     margin: ["responsive", "direction"],
     padding: ["responsive", "direction"],
   },
-  plugins: [dir()],
+  plugins: [], 
 };
