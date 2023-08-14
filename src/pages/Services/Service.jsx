@@ -99,7 +99,7 @@ const Service = () => {
                   direction:
                     localStorage.getItem("currentLang") === "fa" ? "rtl" : "ltr",
                 }}
-                className="description text-lg text-gray-700 rtl:text-right"
+                className="description text-lg text-gray-300  rtl:text-right"
               >
                 {description}
               </p>

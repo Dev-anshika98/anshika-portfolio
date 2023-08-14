@@ -1,7 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { DiPhotoshop, DiSass } from "react-icons/di";
+// import { DiPhotoshop, DiSass } from "react-icons/di";
 import { BiCodeBlock } from "react-icons/bi";
-import { BsWordpress } from "react-icons/bs";
+// import { BsWordpress } from "react-icons/bs";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { FaCss3 } from "react-icons/fa";
 import { SiTailwindcss, SiBootstrap } from "react-icons/si";
@@ -17,7 +17,7 @@ export const ContextProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [settings, setSettings] = useState(false);
   const [currentColor, setCurrentColor] = useState("#F55050");
-  const [currentMode, setCurrentMode] = useState("light");
+  const [currentMode, setCurrentMode] = useState("dark");
   const [currentLang, setCurrentLang] = useState("en");
   const { t, i18n } = useTranslation();
 
@@ -31,12 +31,7 @@ export const ContextProvider = ({ children }) => {
     localStorage.setItem("colorMode", color);
     setSettings(false);
   };
-  const setLang = (e) => {
-    i18n.changeLanguage(e.target.value);
-    setCurrentLang(e.target.value);
-    localStorage.setItem("currentLang", e.target.value);
-    setSettings(false);
-  };
+ 
 
   //todo Data
 
@@ -99,7 +94,7 @@ export const ContextProvider = ({ children }) => {
       description: t("aboutSkills1Description2"),
       icon: <BiCodeBlock />,
     },
-    
+  
   ];
   const serviceData = [
     {
@@ -133,14 +128,25 @@ export const ContextProvider = ({ children }) => {
       description: t("bootstrapDescription"),
       icon: <SiBootstrap />,
     },
-   
+  
   ];
   const portfolioTitle = [
-   
+    {
+      name: t("all"),
+      activetab: [true, false, false, false, false],
+    },
+    
   ];
   const portfolioData = [
     {
-    }
+      all: [
+
+      
+     
+      ],
+
+    
+    },
   ];
 
   //todo Data
@@ -162,7 +168,7 @@ export const ContextProvider = ({ children }) => {
         i18n,
         setMode,
         setColor,
-        setLang,
+      
         navItems,
         themeColors,
         aboutData,

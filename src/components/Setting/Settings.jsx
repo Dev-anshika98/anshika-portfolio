@@ -45,21 +45,21 @@ const Settings = () => {
             </button>
           </div>
 
-          <div className="w-full py-3 border-gray-400 border-t-1">
+          {/* <div className="w-full py-3 border-gray-400 border-t-1">
             <h3 className="mb-4">{t("changeLang")}</h3>
-            <div className="flex items-center gap-1">
-              <input
+            <div className="flex items-center gap-1"> */}
+              {/* <input
                 type="radio"
                 checked={currentLang === "fa"}
                 className="cursor-pointer"
                 id="fa"
                 value="fa"
                 onChange={setLang}
-              />
-              <label className="text-sm" htmlFor="fa">
+              /> */}
+              {/* <label className="text-sm" htmlFor="fa">
                 {t("fa")}
-              </label>
-            </div>
+              </label> */}
+            {/* </div>
             <div className="flex items-center gap-1">
               <input
                 type="radio"
@@ -68,12 +68,12 @@ const Settings = () => {
                 id="en"
                 value="en"
                 onChange={setLang}
-              />
-              <label className="text-sm" htmlFor="en">
+              /> */}
+              {/* <label className="text-sm" htmlFor="en">
                 {t("en")}
-              </label>
-            </div>
-          </div>
+              </label> */}
+            {/* </div>
+          </div> */}
 
           <div className="w-full py-3 border-gray-400 border-t-1">
             <h3 className="mb-4">{t("themeOptions")}</h3>

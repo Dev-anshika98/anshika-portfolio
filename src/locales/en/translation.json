@@ -83,9 +83,7 @@
   "themeOptions": "Theme Options",
   "light": "Light",
   "dark": "Dark",
-  "changeLang": "Change Language",
-  "en": "English",
-  "fa": "Persian",
+  
   "themeColors": "Theme Colors",
   "messageSended": "Message Sended!!",
   "loading": "LOADING"
