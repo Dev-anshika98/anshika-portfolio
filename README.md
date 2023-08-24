@@ -1,5 +1,5 @@
 # anshika-portfolio
-Welcome to my personal website, showcasing my projects and skills in web development..
+Welcome to my personal website, showcasing my projects and skills in web development...
 
 ## :information_source: Requirements
 
