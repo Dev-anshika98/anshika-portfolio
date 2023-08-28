@@ -31,9 +31,9 @@ const About = () => {
           style={{ background: currentColor }}
           className="w-20 h-1 m-2 mb-4"
         ></div>
-        <p className=" text-2xl text-gray-700 text-md">{t("AboutDescreption")}</p>
+        <p className=" text-2xl text-gray-300 text-md">{t("AboutDescreption")}</p>
 
-        <div className="grid gap-8 mt-12 text-2xl text-black md:grid-cols-2 gap-y-12">
+        <div className="grid gap-8 mt-12 text-2xl text-gray-400 md:grid-cols-2 gap-y-12">
           {aboutData.map(({ skill, description, icon }) => (
             <div key={skill} className="flex items-center gap-8 md:justify-between">
               <div className="relative">
@@ -48,7 +48,7 @@ const About = () => {
 
               <div>
                 <h3 className="text-3xl font-casablanca ltr:font-summer">{skill}</h3>
-                <p className="mt-2 text-xl text-gray-800">{description}</p>
+                <p className="mt-2 text-xl text-gray-300">{description}</p>
               </div>
             </div>
           ))}

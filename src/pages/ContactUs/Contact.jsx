@@ -63,7 +63,7 @@ const Contact = () => {
           style={{ background: currentColor }}
           className="w-20 h-1 m-2 mb-4"
         ></div>
-        <p className="text-sm text-gray-700">{t("contactDescription")}</p>
+        <p className="text-sm text-gray-200">{t("contactDescription")}</p>
 
         <div
           style={{
