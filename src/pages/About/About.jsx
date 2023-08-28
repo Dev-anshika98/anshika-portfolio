@@ -1,6 +1,6 @@
 import { useStateContext } from "../../context/Context";
 
-import Photo from "../../assets/mypic1.jpg";
+import Photo from "../../assets/picturemine.jpg";
 
 const About = () => {
   const { currentColor, aboutData, t } = useStateContext();
