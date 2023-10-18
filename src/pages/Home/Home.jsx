@@ -4,7 +4,7 @@ import { useStateContext } from "../../context/Context";
 import Snowfall from "react-snowfall";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
-
+import { Link } from "react-router-dom";
 import Avatar from "../../assets/Avatar.jpg";
 import Styles from "./Home.module.css";
 
@@ -76,7 +76,9 @@ const Home = () => {
             ></span>
           </button>
           <button type="button" className="w-32 px-4 py-6 md:w-36">
+          <Link to="/resume.pdf"> 
             {t("readMore")}
+            </Link>
           </button>
         </div>
 
